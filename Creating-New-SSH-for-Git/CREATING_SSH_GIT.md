@@ -1,7 +1,7 @@
 ### After creating a fresh notebook on Gradient, I tried to clone a repo that I made in github.
 
 ### I wanted to set up an ssh key for use with github. I started up the ssh agent...
-eval "$ssh-agent -s)"
+eval "$(ssh-agent -s)"
 #output: Agent pid 587
 
 ### the output showed that the ssh agent was active, so I asked it to create a new ssh key for me using best-in-class algorythm ed25519
