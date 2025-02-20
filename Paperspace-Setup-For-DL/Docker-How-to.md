@@ -1,5 +1,5 @@
 # How I took the setup work and turned into docker image
-﻿### After figuring out the build order, I learned how to make a docker file.
+After figuring out the build order, I learned how to make a docker file.
 Make a new file and call it `Dockerfile` without any extension. I used Visual Studio 2022 to make it.
 
 The Dockerfile looks like this:
